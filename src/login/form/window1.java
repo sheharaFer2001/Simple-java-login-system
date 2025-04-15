@@ -153,6 +153,10 @@ public class window1 extends javax.swing.JFrame {
     }//GEN-LAST:event_submitActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        signup page2 = new signup();
+        page2.setVisible(true);
+        
+        this.dispose();
         
     }//GEN-LAST:event_jButton2ActionPerformed
 
